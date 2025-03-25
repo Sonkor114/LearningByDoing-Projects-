@@ -1,0 +1,8 @@
+{
+    "workbench.editor.alwaysShowEditorActions": false,
+    "workbench.editor.autoLockGroups": {
+        "jupyter-notebook": true
+    },
+    "liveServer.settings.CustomBrowser": "chrome",
+    "powershell.codeFormatting.preset": "Custom"
+}
