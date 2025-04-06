@@ -76,3 +76,37 @@ select {
     background-position-x: calc(100% - 20px);
     background-position-y: 20px;
 }
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 30px;
+        margin-top: -30px;
+        margin-bottom: 30px;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    textarea {
+        width: 90%;
+        height: 200px;
+        font-size: 14px;
+        padding: 15px;
+    }
+
+    .row {
+        width: 90%;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    button {
+        width: 100%;
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    select {
+        width: 100%;
+        background-position-x: calc(100% - 15px);
+    }
+}
